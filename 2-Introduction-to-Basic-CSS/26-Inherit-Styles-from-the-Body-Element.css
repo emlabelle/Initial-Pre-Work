@@ -1,0 +1,12 @@
+/* In this lesson: Child elements inherit CSS from their parents by default. Since the <body> contains all elements on the page, all elements will inherit the <body>'s styling. */
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1>Hello World</h1>

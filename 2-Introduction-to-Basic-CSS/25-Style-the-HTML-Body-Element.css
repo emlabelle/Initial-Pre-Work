@@ -1,0 +1,7 @@
+/* In this lesson: Every HTML document has a <body> that can be styled. */
+
+<style>
+  body {
+    background-color: black;
+  }
+</style>
