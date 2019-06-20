@@ -1,0 +1,14 @@
+/* In this lesson: Not all browsers support the same properties. If a value isn't recognized, it will look for another value and reset to the default if none is found. By including a more widely accepted fallback rule before the desired implementation, you can control the look of older browsers without interfering with newer browsers (which will interpret the last declaration).*/
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>

@@ -1,0 +1,7 @@
+/* In this lesson: Colors can also be represented through RGB values - three values, one each for red, green and blue, where 0 is no color and 255 is max color. */
+
+<style>
+  body {
+    background-color: rgb(0,0,0);
+  }
+</style>
