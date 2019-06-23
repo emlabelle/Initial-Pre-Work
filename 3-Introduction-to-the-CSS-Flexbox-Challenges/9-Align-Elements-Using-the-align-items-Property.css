@@ -1,0 +1,26 @@
+/* In this lesson: "align-items" aligns items along the cross axis (up-down on a row, or left-right on a column). "flex-start", "flex-end" and "center" behave similarly to their "justify-content" counterparts (albeit along the cross-axis). "stretch" stretches the content to fill the entire length of the cross-axis. "baseline" aligns items to the line that text sits on. */
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    align-items: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 200px;
+    font-size: 24px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 200px;
+    font-size: 18px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"><p>Hello</p></div>
+  <div id="box-2"><p>Goodbye</p></div>
+</div>
