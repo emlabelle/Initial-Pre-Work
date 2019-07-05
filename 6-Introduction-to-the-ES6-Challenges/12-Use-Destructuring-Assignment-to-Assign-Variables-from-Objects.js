@@ -1,4 +1,4 @@
-// In this lesson: Destructuring assignment is a way to unpack an object, similarly to using the spread operator with an array.
+// In this lesson: Destructuring assignment is a way to unpack an object, similarly to using the spread operator with an array. One or more variables are determined to the left of the assignment operator, along with the properties those values are associated with in the object to the right of the assignment operator.
 
 const AVG_TEMPERATURES = {
   today: 77.5,
